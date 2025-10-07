@@ -1,0 +1,28 @@
+{
+  "name": "bhromaon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lo-str/bhromaon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lo-str/bhromaon/issues"
+  },
+  "homepage": "https://github.com/Lo-str/bhromaon#readme",
+  "devDependencies": {
+    "sass": "^1.93.2",
+    "vite": "^7.1.9"
+  }
+}
+

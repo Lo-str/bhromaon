@@ -1,0 +1,15 @@
+@use "vars" as v;
+@use "mixins" as m;
+
+// Page Wrapper
+.wrap {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  min-height: v.$wrp-h;
+  gap: 0;
+}
+

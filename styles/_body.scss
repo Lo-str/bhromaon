@@ -1,0 +1,85 @@
+@use "./mixins" as m;
+@use "./vars" as v;
+
+*, *::before, *::after {box-sizing: border-box;}
+
+html {font-size: 62.5%;}
+
+body {
+  font-family: v.$ff-1;
+  font-size: v.$rem-16;
+  color: v.$fc;
+  margin: 0;
+  padding: 0;
+
+  h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+
+  }
+
+  ul {
+      text-transform: uppercase;
+      list-style: none;
+  }
+
+}
+
+.header {
+    background-image: url("../images/header.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    height: 100dvh;
+}
+
+.block2 {
+  background-image: url(../images/exploreBg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.block3 {
+  background-color: #333333;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+
+}
+
+.block4 {
+  background-image: url(../images/book1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.block5 {
+  background-image: url(../images/book2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.block6 {
+  background-image: url(../images/review-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  height: 100dvh;
+}

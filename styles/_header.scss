@@ -1,0 +1,22 @@
+@use "./mixins" as m;
+@use "./vars" as v;
+
+.header {
+  border: 2px solid rgb(0, 255, 30);
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr auto;
+
+  .block1 {
+    grid-area: 1 / 1 / span 3 / 2;
+    display: flex;
+    border: 2px solid rgb(255, 0, 255);
+  }
+
+  .nav-wrap {
+    grid-area: 4 / 1 / 5 / 2;
+    border: 2px solid rgb(255, 0, 255);
+  }
+}
