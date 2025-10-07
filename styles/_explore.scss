@@ -1,0 +1,56 @@
+@use "vars" as v;
+
+// Block 2: explore
+.block2 {
+  border: 2px solid rgb(0, 255, 30);
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: v.$rem-16;
+  grid-template-areas:
+  "c1 c2"
+  "c1 c3";
+
+  .card1 {
+    display: flex;
+    flex-direction: column;
+    gap: v.$rem-40;
+    border: 2px solid rgb(255, 0, 238);
+    max-width: v.$rem-562;
+    width: v.$pct;
+    height: fit-content;
+    grid-area: c1;
+    &__h2 {
+      font-family: v.$ff-2;
+      font-size: v.$rem-36;
+      font-weight: v.$fw2-r;
+    }
+
+    &__txt {
+      font-family: v.$ff-1;
+      font-size: v.$rem-16;
+      font-weight: v.$fw1-l ;
+
+      letter-spacing: v.$rem-1_6;
+      &--1{ padding-bottom: v.$rem-20; }
+    }
+
+    &__btn {
+
+    }
+  }
+
+  .card2 {
+    grid-area: c2;
+  }
+
+  .card3 {
+    grid-area: c3;
+  }
+
+}

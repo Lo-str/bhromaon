@@ -6,15 +6,9 @@ transition: transform .2s;
 }
 
 @mixin hover {
-
   transform: scale(1.1);
   }
 
-
-// Font Awesome
-@mixin fa-search {
-
-}
 
 // @mixin bg-w {
 //   @media screen and (min-width: v.$){

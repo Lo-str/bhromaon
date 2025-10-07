@@ -3,28 +3,35 @@ $ff-1: "Josefin Sans", sans-serif;
 $ff-2: "Aleo", serif;
 
 // Rem
-$rem_08: 0.08rem;
-$rem_2: -0.2rem;
+$rem-1: 0.1rem;
+$rem-1_6: 0.16rem;
+$rem_2: 0.2rem;
+$rem_3: 0.3rem;
 $rem-5: 0.5rem;
+$rem-7: 0.7rem;
 $rem-10: 1rem;
 $rem-12: 1.2rem;
+$rem-14: 1.4rem;
 $rem-16: 1.6rem;
 $rem-18: 1.8rem;
 $rem-20: 2rem;
 $rem-22: 2.2rem;
 $rem-24: 2.4rem;
+$rem-26: 2.6rem;
 $rem-28: 2.8rem;
 $rem-30: 3rem;
 $rem-32: 3.2rem;
 $rem-36: 3.6rem;
 $rem-40: 4rem;
 $rem-48: 4.8rem;
-$rem-64: 6.4rem;
+$rem-63: 6.3rem;
 $rem-72: 7.2rem;
 $rem-84: 8.4rem;
 $rem-102: 10.2rem;
-$rem-145: 14.5rem;
-$rem-568: 56.8rem;
+$rem-153: 15.3rem;
+$rem-503: 50.3rem;
+$rem-562: 56.2rem;
+$rem-653: 65.3rem;
 $rem-769: 76.9rem;
 
 // Width
@@ -56,11 +63,14 @@ $pw-img2: 61.7rem;
 $pw-img3: 25.6rem;
 
 
-// Font Weight
-$fw-b: 800;
-$fw-r: 400;
-$fw-l: 500;
+// Font Weight (1: 100-700 / 2: 100-900)
+$fw1-b: 6 00;
+$fw1-l: 300;
+$fw1-r: 400;
+$fw2-l: 300;
+$fw2-r: 350;
 
 // Color
 $fc: #FFFFFF;
-$bg-c: #000000;
+$btn-c: #5474FD;
+$search-c: #999999;

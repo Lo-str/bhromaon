@@ -17,78 +17,83 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 <body>
     <!-- Main Wrap -->
     <div class="wrap">
-        <!-- Header Container -->
-        <header class="header">
-            <div class="block1">
-                <h1 class="block1__h1">bhromaon</h1>
-                <p class="block1__txt"> Safe Travel Anywhere</p>
-                <div class="block1__search">
+        <div class="header-bg">
+            <!-- Header Container -->
+            <header class="header">
+                <div class="block1">
+                    <h1 class="block1__h1">bhromaon</h1>
+                    <p class="block1__txt"> safe travel anywhere</p>
                     <!-- Search Bar -->
-                    <form class="active" action="#" href="#home">
-                        <input type="text" placeholder="Search Your Travel Destination" name="search">
-                        <button class="block1__btn">
-                            <i class="fa fa-search" aria-hidden="true"></i>
+                    <form class="form" action="#" href="#home">
+                        <input class="form__ipt" type="text" placeholder="search your travel Destination" name="search">
+                        <button class="form__btn">search
+                            <i class="fa-solid fa-search" aria-hidden="true"></i>
                         </button>
                     </form>
+                </div>
+
 
                 <!-- Scroll dowm -->
                 <nav class="nav-scroll">
                     <a class="nav-scroll__link" href="./pages/explore.html">
-                        Scroll Down
-                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <p class="nav-scroll__txt">Scroll Down</p>
+                        <i class="fa-solid fa-angle-down" aria-hidden="true"></i>
                     </a>
                 </nav>
-            </div>
 
-            <!-- Bottom header: Logo & Navbar -->
-            <div class="nav-wrap">
-                <!-- Logo -->
-                <div class="logo">
-                    <p class="logo__txt">bhromaon</p>
+
+                <!-- Bottom header: Logo & Navbar -->
+                <div class="nav-wrap">
+                    <!-- Logo -->
+                    <p class="logo">bhromaon</p>
+                    <!-- Navigation bar -->
+                    <nav class="top-nav">
+                        <ul class="top-nav__list">
+                            <li>
+                                <a class="top-nav__link" href="#about">who are we</a>
+                            </li>
+                            <li>
+                                <a class="top-nav__link" href="#goal">what we do</a>
+                            </li>
+                            <li>
+                                <a class="top-nav__link" href="#travel">travel with us</a>
+                            </li>
+                            <li>
+                                <a href="#contact">conctact us</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <!-- Navigation bar -->
-                <nav class="top-nav">
-                    <ul class="top-nav__list">
-                        <li class="top-nav__link">
-                            <a href="#about">who are we</a>
-                        </li>
-                        <li class="top-nav__link">
-                            <a href="#goal">what we do</a>
-                        </li>
-                        <li class="top-nav__link" >
-                            <a href="#travel">travel with us</a>
-                        </li>
-                        <li class="top-nav__link" >
-                            <a href="#contact">conctact us</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
+            </header>
+        </div>
+        <main class="main">
 
             <!-- Block 2 -->
-            <section class="block2">
-                <article class="block2__wrap">
-                    <div class="block2-card1">
-                        <h2 class="block2-card1__h2">Why Choose Us</h2>
-                        <p class="block2-card1__txt">
-                            Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee
-                        </p>
-                        <p class="block2-card1__txt">
-                            Dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.
-                        </p>
-                        <button class="block2-card1__btn" href="#explore">explore places</button>
+            <section class="block2-bg">
+                <article class="block2">
+                    <div class="card1">
+                        <h2 class="card1__h2">Why Choose Us</h2>
+                        <div class="card1__txt">
+                            <p class="card1__txt--1">
+                                Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee
+                            </p>
+                            <p class="card1__txt--2">
+                                Dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.
+                            </p>
+                        </div>
+                        <button class="card1__btn" href="#explore">explore places</button>
                     </div>
-                    <div class="block2-card2">
-                        <img class="block2-card2__img1" src="./images/explore1.png" srcset="./images/explore1.svg" alt="House on top of water">
-                        <img class="block2-card2__img2" src="./images/explore2.png" srcset="./images/explore2.svg" alt="mountain lanscape">
+                    <div class="card2">
+                        <img class="card2__img" src="./images/explore1.png" srcset="./images/explore1.svg" alt="House on top of water">
+                    </div>
+                    <div class="card3">
+                        <img class="card3__img" src="./images/explore2.png" srcset="./images/explore2.svg" alt="mountain lanscape">
                     </div>
                 </article>
             </section>

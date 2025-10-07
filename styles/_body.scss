@@ -11,6 +11,7 @@ body {
   color: v.$fc;
   margin: 0;
   padding: 0;
+  line-height: v.$rem-26;
 
   h1, h2, h3, h4 {
     margin: 0;
@@ -20,6 +21,12 @@ body {
   a {
     text-decoration: none;
     color: inherit;
+    @include m.transition;
+    cursor: pointer;
+
+    &:hover {
+      @include m.hover;
+    }
 
   }
 
@@ -28,58 +35,74 @@ body {
       list-style: none;
   }
 
-}
+  button {
+    border: none;
+    background-color: v.$btn-c;
+    color: v.$fc;
+    font-family: v.$ff-2;
+    line-height: v.$rem-26;
+    letter-spacing: v.$rem-1;
+    cursor: pointer;
+    @include m.transition;
+     &:hover {
+      @include m.hover;
+     }
 
-.header {
-    background-image: url("../images/header.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    height: 100dvh;
-}
-
-.block2 {
-  background-image: url(../images/exploreBg.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  height: 100dvh;
-}
-
-.block3 {
-  background-color: #333333;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: fit-content;
+  }
 
 }
 
-.block4 {
-  background-image: url(../images/book1.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  height: 100dvh;
-}
+// .header {
+//     grid-column: 1 / -1;
+//     background-image: url("../images/header.svg");
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     height: 100vh;
+//     height: 100dvh;
+// }
 
-.block5 {
-  background-image: url(../images/book2.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  height: 100dvh;
-}
+// .block2 {
+//   background-image: url(../images/exploreBg.svg);
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 100vh;
+//   height: 100dvh;
+// }
 
-.block6 {
-  background-image: url(../images/review-bg.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  height: 100dvh;
-}
+// .block3 {
+//   background-color: #333333;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: fit-content;
+
+// }
+
+// .block4 {
+//   background-image: url(../images/book1.svg);
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 100vh;
+//   height: 100dvh;
+// }
+
+// .block5 {
+//   background-image: url(../images/book2.svg);
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 100vh;
+//   height: 100dvh;
+// }
+
+// .block6 {
+//   background-image: url(../images/review-bg.svg);
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 100vh;
+//   height: 100dvh;
+// }

@@ -1,1 +1,39 @@
 @use "./vars" as v;
+
+.nav-wrap {
+  border: 2px solid rgb(255, 0, 255);
+  background-color: v.$btn-c;
+  display: flex;
+  grid-area: nav;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+
+  .logo {
+    border: 2px solid rgb(255, 0, 255);
+    font-family: inherit;
+    height: fit-content;
+    font-weight: v.$fw1-b;
+    text-transform: uppercase;
+    font-size: v.$rem-24;
+  }
+
+  .top-nav {
+    border: 2px solid rgb(255, 0, 255);
+
+    ul {
+      // height: fit-content;
+      display: flex;
+      justify-content: space-between;
+
+      // align-items: center;
+      // gap: v.$rem-20;
+      a {
+        font-family: v.$ff-2;
+        font-size: v.$rem-14;
+        font-weight: v.$fw2-r;
+      }
+    }
+
+  }
+}

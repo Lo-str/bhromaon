@@ -1,2 +1,35 @@
-@use "./mixins" as m;
-@use "./vars" as v;
+@use "vars" as v;
+@use "mixins" as m;
+
+// .main {
+//   display: grid;
+//   grid-template-rows: repeat(5, auto);
+//   width: 100%;
+//   grid-template-areas:
+//     ". block2 ."
+//     ". block3 ."
+//     ". block4 ."
+//     ". block5 ."
+//     ". block6 .";
+
+//     .block2 {
+//       grid-area: block2;
+//     }
+
+//     .block3 {
+//       grid-area: block3;
+//     }
+
+//     .block4 {
+//       grid-area: block4;
+//     }
+
+//     .block5 {
+//       grid-area: block5;
+//     }
+
+//     .block6 {
+//       grid-area: block6;
+//     }
+//   }
+
