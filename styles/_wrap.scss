@@ -34,31 +34,3 @@
       margin: 0 auto;
     }
   }
-
-
-// @media screen and (max-width: v.$vp-mid) and (orientation: portrait) {
-//   .wrap {
-//     width: min(v.$pct-90, v.$pw-img2);
-//     min-height: 100vh;
-//     min-height: 100dvh;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     margin-top: 0;
-//   }
-// }
-
-// /* Phone */
-// @media screen and (max-width: v.$vp-small) and (orientation: portrait) {
-//   .wrap {
-//     width: min(v.$pct, 32rem);
-//     min-height: 100vh;
-//     min-height: 100dvh;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     margin-top: 0;
-//   }
-// }
