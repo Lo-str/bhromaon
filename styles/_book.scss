@@ -31,3 +31,9 @@
     padding-bottom: v.$rem-20;
   }
 }
+
+@media screen and (max-width: v.$vp-small) {
+  .block3-btm__txt {
+    line-height: v.$rem-2;
+  }
+}

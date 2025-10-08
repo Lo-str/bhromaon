@@ -1,7 +1,69 @@
 @use "./vars" as v;
 
+/* =)========= FOOTER =========(= */
+
 .footer {
-  background-color: black;
-  width: 100%;
-  height: fit-content;
+  width: min(90%, v.$vp-wide);
+  margin: 0 auto;
+  display: flex;
+  padding-block: v.$rem-32;
+  flex-direction: column;
+  align-items: center;
+  &__nav {
+    width: v.$pct;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: v.$rem-16;
+  }
+
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: v.$rem-16;
+
+    &--txt1 {
+      font-family: inherit;
+      font-weight: v.$fw1-b;
+      text-transform: uppercase;
+      font-size: v.$rem-24;
+      letter-spacing: v.$rem-3;
+      line-height: normal;
+      margin: 0;
+    }
+
+    &--txt2 {
+      font-size: v.$rem-16;
+      letter-spacing: v.$rem-1_6;
+      text-transform: capitalize;
+      line-height: normal;
+      margin: 0;
+    }
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      width: v.$rem-36;
+      height: v.$rem-40;
+    }
+
+    i {
+      font-size: v.$rem-16;
+      color: v.$fc;
+      padding: v.$rem-10;
+    }
+
+    i.fa-linkedin-in {
+      color: v.$btn-c;
+    }
+  }
 }

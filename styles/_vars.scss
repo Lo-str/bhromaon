@@ -28,11 +28,14 @@ $rem-50: 5rem;
 $rem-63: 6.3rem;
 $rem-72: 7.2rem;
 $rem-84: 8.4rem;
+$rem-96: 9.6rem;
 $rem-99: 9.9rem;
 $rem-102: 10.2rem;
 $rem-153: 15.3rem;
+$rem-196: 19.6rem;
 $rem-220: 22rem;
 $rem-228: 22.8rem;
+$rem-271: 27.1rem;
 $rem-284: 28.4rem;
 $rem-342: 34.2rem;
 $rem-350: 35rem;
@@ -55,7 +58,9 @@ $vp-small: 40rem;
 // Percentages
 $pct: 100%;
 $pct-90: 90%;
+$pct-20: 20%;
 $pct-8: 8%;
+$pct-1: 1%;
 
 // wrap
 $wrp-w: 180rem;
@@ -92,3 +97,4 @@ $fa-select: #FF6363;
 $fa-thumb: #00A2FF;
 $overlay: rgba(35, 35, 35, 0.9);
 $card4: #333333;
+$footer: #232323;

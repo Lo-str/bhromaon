@@ -1,39 +1,73 @@
 @use "./vars" as v;
 
-.nav-wrap {
-  border: 2px solid rgb(255, 0, 255);
+.nav-bg {
   background-color: v.$btn-c;
+  width: 100vw;
   display: flex;
-  grid-area: nav;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-self: flex-end;
+}
+
+.nav-wrap {
+  width: min(90%, v.$vp-wide);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: auto;
 
   .logo {
-    border: 2px solid rgb(255, 0, 255);
     font-family: inherit;
-    height: fit-content;
     font-weight: v.$fw1-b;
     text-transform: uppercase;
     font-size: v.$rem-24;
   }
 
   .top-nav {
-    border: 2px solid rgb(255, 0, 255);
 
-    ul {
-      // height: fit-content;
+    &__about2,
+
+    &__list {
       display: flex;
-      justify-content: space-between;
+      gap: v.$rem-20;
 
-      // align-items: center;
-      // gap: v.$rem-20;
       a {
         font-family: v.$ff-2;
         font-size: v.$rem-14;
         font-weight: v.$fw2-r;
+        padding: v.$rem-20;
       }
     }
 
+  }
+}
+
+.top-nav__about2,
+.top-nav__goal2,
+.top-nav__travel2,
+.top-nav__contact2 {
+  display: none;
+}
+
+
+
+@media screen and (max-width: v.$vp-mid) {
+  .nav-wrap {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .top-nav__about2,
+  .top-nav__goal2,
+  .top-nav__travel2,
+  .top-nav__contact2 {
+    display: flex;
+    gap: none;
+  }
+
+  .top-nav__about1,
+  .top-nav__goal1,
+  .top-nav__travel1,
+  .top-nav__contact1 {
+    display: none;
   }
 }
