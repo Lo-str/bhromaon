@@ -37,7 +37,12 @@ body {
 
   button {
     border: none;
+    max-width: v.$rem-228;
+    width: v.$pct;
+    height: v.$rem-63;
+    text-transform: uppercase;
     background-color: v.$btn-c;
+    font-size: v.$rem-16;
     color: v.$fc;
     font-family: v.$ff-2;
     line-height: v.$rem-26;
@@ -52,57 +57,14 @@ body {
 
 }
 
-// .header {
-//     grid-column: 1 / -1;
-//     background-image: url("../images/header.svg");
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     height: 100vh;
-//     height: 100dvh;
-// }
+@media screen and (max-width: v.$vp-xl) {
+  .block2-top,
+  .block4 { grid-template-columns: 1fr; }
 
-// .block2 {
-//   background-image: url(../images/exploreBg.svg);
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   height: 100vh;
-//   height: 100dvh;
-// }
+  .block2-btm {
+    text-align: center;
+    grid-template: 1fr;
+   }
+}
 
-// .block3 {
-//   background-color: #333333;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   height: fit-content;
 
-// }
-
-// .block4 {
-//   background-image: url(../images/book1.svg);
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   height: 100vh;
-//   height: 100dvh;
-// }
-
-// .block5 {
-//   background-image: url(../images/book2.svg);
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   height: 100vh;
-//   height: 100dvh;
-// }
-
-// .block6 {
-//   background-image: url(../images/review-bg.svg);
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   height: 100vh;
-//   height: 100dvh;
-// }

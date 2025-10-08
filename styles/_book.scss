@@ -1,0 +1,33 @@
+@use "./mixins" as m;
+@use "./vars" as v;
+
+/* =)========= BLOCK 3: Booking =========(= */
+
+.block3-top,
+.block3-btm {
+  text-align: left;
+  display: grid;
+  width: min(90%, v.$vp-wide);
+  width: v.$pct;
+  background-color: v.$overlay;
+  padding: v.$rem-24;
+
+  &__h4 {
+    font-size: clamp(v.$rem-16, 1.4vw, v.$rem-20);
+    letter-spacing: v.$rem-1_6;
+    font-weight: v.$fw1-r;
+    padding: v.$rem-20 0 v.$rem-20 0;
+  }
+
+  &__h3 {
+    text-transform: uppercase;
+    font-size: clamp(v.$rem-22, 1.4vw, v.$rem-32);
+    font-weight: v.$fw1-r;
+  }
+
+  &__txt {
+    font-size: v.$rem-16;
+    font-weight: v.$fw1-r;
+    padding-bottom: v.$rem-20;
+  }
+}

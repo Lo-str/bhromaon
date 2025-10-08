@@ -1,0 +1,64 @@
+@use "./mixins" as m;
+@use "./vars" as v;
+
+/* =)========= BLOCK 4: Review =========(= */
+
+.block4 {
+  width: min(90%, v.$vp-wide);
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: v.$rem-32;
+  color: v.$fc;
+
+  &__h2 {
+    font-family: v.$ff-2;
+    font-weight: v.$fw2-r;
+    font-size: clamp(v.$rem-22, 3vw, v.$rem-36);
+  }
+
+  &__card {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: v.$rem-32;
+    align-items: start;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &__tile {
+    display: grid;
+    gap: v.$rem-16;
+    padding: v.$rem-24;
+    background-color: v.$card4;
+  }
+
+  &__h3 {
+    text-transform: uppercase;
+    font-family: v.$ff-2;
+    font-weight: v.$fw2-r;
+    font-size: v.$rem-20;
+  }
+
+  &__txt {
+    font-family: v.$ff-1;
+    font-weight: v.$fw1-r;
+    font-size: v.$rem-16;
+
+    i {
+      font-size: v.$rem-48;
+      vertical-align: bottom;
+      padding: 0 v.$rem-10 0 0;
+      color: v.$btn-c;
+    }
+  }
+}
+
+@media (max-width: v.$vp-wide) {
+  .block4__card {
+    grid-template-columns: 1fr;
+  }
+}

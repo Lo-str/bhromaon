@@ -8,14 +8,3 @@ transition: transform .2s;
 @mixin hover {
   transform: scale(1.1);
   }
-
-
-// @mixin bg-w {
-//   @media screen and (min-width: v.$){
-
-//   }
-// }
-
-// @mixin bg-m {}
-
-// @mixin bg-s {@media screen and (min-width: v.$)}

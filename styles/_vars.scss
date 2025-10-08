@@ -24,17 +24,30 @@ $rem-32: 3.2rem;
 $rem-36: 3.6rem;
 $rem-40: 4rem;
 $rem-48: 4.8rem;
+$rem-50: 5rem;
 $rem-63: 6.3rem;
 $rem-72: 7.2rem;
 $rem-84: 8.4rem;
+$rem-99: 9.9rem;
 $rem-102: 10.2rem;
 $rem-153: 15.3rem;
+$rem-220: 22rem;
+$rem-228: 22.8rem;
+$rem-284: 28.4rem;
+$rem-342: 34.2rem;
+$rem-350: 35rem;
+$rem-374: 37.4rem;
+$rem-445: 44.5rem;
+$rem-450: 45rem;
 $rem-503: 50.3rem;
+$rem-543: 54.3rem;
 $rem-562: 56.2rem;
 $rem-653: 65.3rem;
+$rem-668: 66.8rem;
 $rem-769: 76.9rem;
 
 // Width
+$vp-xl: 100rem;
 $vp-wide: 90rem;
 $vp-mid: 76.8rem;
 $vp-small: 40rem;
@@ -64,9 +77,9 @@ $pw-img3: 25.6rem;
 
 
 // Font Weight (1: 100-700 / 2: 100-900)
-$fw1-b: 6 00;
+$fw1-b: 600;
 $fw1-l: 300;
-$fw1-r: 400;
+$fw1-r: 350;
 $fw2-l: 300;
 $fw2-r: 350;
 
@@ -74,3 +87,8 @@ $fw2-r: 350;
 $fc: #FFFFFF;
 $btn-c: #5474FD;
 $search-c: #999999;
+$fa-search: #2484F0;
+$fa-select: #FF6363;
+$fa-thumb: #00A2FF;
+$overlay: rgba(35, 35, 35, 0.9);
+$card4: #333333;
